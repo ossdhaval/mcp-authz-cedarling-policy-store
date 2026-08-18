@@ -1,4 +1,4 @@
-@id("CEO can do anything")
+@id("ceo-can-do-anything")
 permit (
   principal,
   action,
