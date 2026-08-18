@@ -1,7 +1,7 @@
-@id("Describe the policy here")
+@id("CEO can do anything")
 permit (
   principal,
-  action == Jans::Action::"Write",
+  action,
   resource is Jans::Application
 )
 when {
