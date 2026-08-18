@@ -1,4 +1,4 @@
-@id("HR can read")
+@id("hr-can-read")
 permit (
   principal,
   action == Jans::Action::"Read",
