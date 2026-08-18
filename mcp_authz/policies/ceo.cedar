@@ -2,5 +2,5 @@
 permit (
   principal,
   action == Jans::Action::"Write",
-  resource
+  resource is Jans::Application
 );
