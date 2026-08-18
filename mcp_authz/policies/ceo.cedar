@@ -1,6 +1,6 @@
 @id("Describe the policy here")
 permit (
   principal,
-  action,
+  action == Jans::Action::"Write",
   resource
 );
