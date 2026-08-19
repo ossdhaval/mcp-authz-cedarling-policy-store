@@ -1,4 +1,5 @@
 {
+    "id": "6f18d65a3b780e5e82b6c397d0909850207f0b667379",
     "name": "concrete_ewe",
     "description": "",
     "configuration_endpoint": "https://ossdhaval-concrete-ewe.gluu.info/.well-known/openid-configuration",
@@ -18,19 +19,18 @@
         },
         "id_token": {
             "trusted": true,
-            "entity_type_name": "Jans::id_token",
+            "entity_type_name": "concrete_ewe::id_token",
             "token_id": "jti"
         },
         "userinfo_token": {
             "trusted": true,
-            "entity_type_name": "Jans::Userinfo_token",
+            "entity_type_name": "concrete_ewe::Userinfo_token",
             "token_id": "jti"
         },
         "tx_token": {
             "trusted": true,
-            "entity_type_name": "Jans::Access_token",
+            "entity_type_name": "concrete_ewe::Access_token",
             "token_id": "jti"
         }
-    },
-    "id": "6f18d65a3b780e5e82b6c397d0909850207f0b667379"
+    }
 }
