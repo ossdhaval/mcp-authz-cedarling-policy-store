@@ -4,8 +4,8 @@
         "id": "85f31e9769c86aa128580336a7996ff8d002da2027ee",
         "name": "mcp_authz",
         "description": "MCP server authorization demo",
-        "version": "7.0.0",
+        "version": "6.0.0",
         "created_date": "2026-08-07T12:04:53.583059+00:00",
-        "updated_date": "2026-08-19T09:04:43.793765+00:00"
+        "updated_date": "2026-08-19T09:49:10.121165+00:00"
     }
 }
