@@ -210,9 +210,9 @@ namespace concrete_ewe {
   };
 
   type TokensContext = {
-    Jans_access_token?: Jans::Access_token,
-    Jans_id_token?: Jans::id_token,
-    Jans_userinfo_token?: Jans::Userinfo_token,
+    concrete_ewe_access_token?: Jans::Access_token,
+    concrete_ewe_id_token?: Jans::id_token,
+    concrete_ewe_userinfo_token?: Jans::Userinfo_token,
     total_token_count: Long
   };
 
